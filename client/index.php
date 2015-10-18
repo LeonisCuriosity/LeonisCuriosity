@@ -10,7 +10,7 @@
                 <li><a href="index.php?page=Home">Accueil</a></li>
                 <li><a href="index.php?page=Tas">Trucs à Savoir</a></li>
                 <li><a href="index.php?page=Projets">Projets</a></li>
-                <li><a href="index.php?page=CmC">Ça Marche Comment?</a></li>
+                <li><a href="index.php?page=Cmc">Ça Marche Comment?</a></li>
                 <li><a href="index.php?page=About">À propos</a></li>
             </ul>
         </header>

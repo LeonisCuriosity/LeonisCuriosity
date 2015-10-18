@@ -16,7 +16,7 @@
         </header>
         <section id="contexte">
             <?php
-                echo "$page";
+                echo $page;
             ?>
         </section>
         <footer>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Leonis Curiosity</title>
-        <style src="style.css"></style>
+        <style href="style.css"></style>
     </head>
     <body>
         <header>

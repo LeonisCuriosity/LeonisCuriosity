@@ -15,7 +15,9 @@
             </ul>
         </header>
         <section id="contexte">
-
+            <?php
+                echo "Hello World";
+            ?>
         </section>
         <footer>
             <div>

@@ -19,8 +19,10 @@
             switch ($_GET['page']) {
                 case "Tas":
                     echo "C'est la page des trucs à savoir";
-                    print "<p>
-                        test sur plusieurs lignes
+                    print
+                    "<h2 class='title'>Trucs à savoir</h2>
+                    <p class='presentation'>
+                        Ici, vous allez voir les news, les trucs et les machins
                     </p>";
                 break;
 

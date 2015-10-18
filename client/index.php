@@ -7,16 +7,16 @@
     <body>
         <header>
             <ul>
-                <li><a href="?page=Home">Accueil</a></li>
-                <li><a href="?page=IUOP">IUOP</a></li>
-                <li><a href="?page=Projets">Projets</a></li>
-                <li><a href="?page=CmC">ÇmC?</a></li>
-                <li><a href="?page=About">À propos</a></li>
+                <li><a href="index.php?page=Home">Accueil</a></li>
+                <li><a href="index.php?page=IUOP">IUOP</a></li>
+                <li><a href="index.php?page=Projets">Projets</a></li>
+                <li><a href="index.php?page=CmC">ÇmC?</a></li>
+                <li><a href="index.php?page=About">À propos</a></li>
             </ul>
         </header>
         <section id="contexte">
             <?php
-                print $page;
+                print $_GET['page'];
             ?>
         </section>
         <footer>

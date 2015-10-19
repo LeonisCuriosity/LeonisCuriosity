@@ -22,23 +22,63 @@
                     print
                     "<h2 class='title'>Trucs à savoir</h2>
                     <p class='presentation'>
-                        Ici, vous allez voir les news, les trucs et les machins
-                    </p>";
+                        Ici, vous allez voir les news, mais aussi, des infos diverses et variées qui me tiennent à coeur.
+                    </p>
+                    <section class="billets">
+
+                    </section>
+                    ";
                 break;
 
                 case "Projets":
+                    print
+                    "<h2 class='title'>Projets</h2>
+                    <p class='presentation'>
+                    Ici, vous allez voir les projet dont je fais partie, et auxquels je contribue.
+                    </p>
+                    <section class="billets">
+
+                    </section>
+                    ";
 
                 break;
 
                 case "Cmc":
+                    print
+                    "<h2 class='title'>Ça marche comment?</h2>
+                    <p class='presentation'>
+                        Voici la rubrique des curieux! c'est ici que je posterais des p'tits articles sur le fonctionnements de divers systèmes. En effet, curieux que je suis, je suis souvent ammené à faire des recherches, et je les partagerais ici.
+                    </p>
+                    <section class="billets">
+
+                    </section>
+                    ";
 
                 break;
 
                 case "About":
+                    print
+                    "<h2 class='title'>À propos de moi</h2>
+                        <section class="bio">
+                            ipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsum ipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsum.
+
+                            ipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsumipsum lorem ipsum.
+                        </section>
+                    ";
 
                 break;
 
                 default:
+                    print
+                    "<h2 class='title'>Accueil</h2>
+                    <p class='presentation'>
+                        Bienvenue sur LeonisCuriosity.
+                    </p>
+                    <section id="accueil">
+
+                    </section>
+                    ";
+
 
             }
             ?>

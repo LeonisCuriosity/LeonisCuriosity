@@ -19,6 +19,7 @@
             <?php
             switch ($_GET['page']) {
                 case "Tas":
+                    echo "C'est la page des trucs à savoir";
                     print
                     "<h2 class='title'>Trucs à savoir</h2>
                     <p class='presentation'>
@@ -31,6 +32,7 @@
                 break;
 
                 case "Projets":
+<<<<<<< HEAD
                     print
                     "<h2 class='title'>Projets</h2>
                     <p class='presentation'>
@@ -80,6 +82,21 @@
                     ";
 
 
+=======
+                    echo "C'est la page des projets";
+                break;
+
+                case "Cmc":
+                    echo "C'est la rubrique : ça marche comment?";
+                break;
+
+                case "About":
+                    echo "C'est la rubrique à propos de moi";
+                break;
+
+                default:
+                    echo "Accueil";
+>>>>>>> parent of 612919e... last of the day
             }
             ?>
         </section>

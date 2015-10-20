@@ -13,7 +13,7 @@
                 <li><a href="index.php?page=Projets">Projets</a></li>
                 <li><a href="index.php?page=Cmc">Ça Marche Comment?</a></li>
                 <li><a href="index.php?page=About">À propos</a></li>
-            </ul> 
+            </ul>
         </header>
         <section id="contexte">
             <?php

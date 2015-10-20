@@ -33,6 +33,7 @@
 
                 case "Projets":
 <<<<<<< HEAD
+<<<<<<< HEAD
                     print
                     "<h2 class='title'>Projets</h2>
                     <p class='presentation'>
@@ -82,6 +83,21 @@
                     ";
 
 
+=======
+                    echo "C'est la page des projets";
+                break;
+
+                case "Cmc":
+                    echo "C'est la rubrique : ça marche comment?";
+                break;
+
+                case "About":
+                    echo "C'est la rubrique à propos de moi";
+                break;
+
+                default:
+                    echo "Accueil";
+>>>>>>> parent of 612919e... last of the day
 =======
                     echo "C'est la page des projets";
                 break;
